@@ -1,10 +1,9 @@
 'use strict'
 
-console.log("foo");
 const width  = window.innerWidth,
       height = window.innerHeight
 
-const renderer = new THREE.WebGLRenderer({alpha: true ,antialias: true})
+const renderer = new THREE.WebGLRenderer({alpha: true, antialias: true})
 renderer.setSize(width, height)
 renderer.setClearColor(new THREE.Color(0xffffff), 0.0)
 document.body.appendChild(renderer.domElement)
