@@ -20,6 +20,19 @@ Running T-Rex on Vim
 $ npm install
 ```
 
+And download T-Rex glTF model.
+
+For Windows
+```
+download.cmd
+```
+
+For UNIX:
+```
+source download.cmd
+```
+
+
 ## License
 
 MIT
