@@ -6,7 +6,7 @@
   "scripts": {
     "start": "electron ."
   },
-  "repository": "https://github.com/mattn/trex",
+  "repository": "https://github.com/mattn/vim-trex",
   "keywords": [
     "Electron",
     "trex"
