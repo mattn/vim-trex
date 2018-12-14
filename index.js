@@ -9,8 +9,9 @@ renderer.setClearColor(new THREE.Color(0xffffff), 0.0)
 document.body.appendChild(renderer.domElement)
 
 const scene = new THREE.Scene(),
-      camera = new THREE.PerspectiveCamera(50, width/height, 0.1, 5000)
-camera.position.set(0, 0, -50)
+      camera = new THREE.PerspectiveCamera(50, width/height, 0.1, 3000)
+camera.position.set(0, 0, -2500)
+
 
 var light1 = new THREE.DirectionalLight(0xffffff, 0.5)
 light1.position.set(0, 0, 50)
@@ -42,7 +43,7 @@ loader.load('./trex/trex_running.gltf', (data) => {
       mixerWindmill.clipAction(animations[i]).play()
   }
   object.rotation.y = -60
-  object.position.set(0, -200, 4000)
+  object.position.set(0, -200, 0)
   scene.add(object)
 })
 
