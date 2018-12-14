@@ -16,6 +16,15 @@ Running T-Rex on Vim
 
 ## Installation
 
+To install using [Vim-Plug](https://github.com/junegunn/vim-plug):
+
+```
+" add this line to your .vimrc file
+Plug 'mattn/vim-trex'
+```
+
+Before using this, you need to run below once.
+
 ```
 $ npm install
 ```
