@@ -7,6 +7,11 @@ const electron = require('electron'),
 let mainWindow
 
 function createWindow() {
+  let fullscreen = true
+  if (process.platform === 'darwin') {
+    fullscreen = false
+  }
+
   const size = electron.screen.getPrimaryDisplay().size
   mainWindow = new BrowserWindow({
     left: 0,
@@ -19,7 +24,7 @@ function createWindow() {
     alwaysOnTop: true,
     ignoreMouseEvents: true,
     maximize: true,
-    fullscreen: true,
+    fullscreen: fullscreen,
     focusable: false,
     skipTaskbar: true,
     transparent: true,
