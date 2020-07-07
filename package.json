@@ -14,7 +14,7 @@
   "author": "GitHub",
   "license": "CC0-1.0",
   "devDependencies": {
-    "electron": "7.1.12"
+    "electron": "7.2.4"
   },
   "dependencies": {}
 }
